@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js" errors="0" package="D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js" hostname="localhost" tests="8" failures="8" time="42.208" timestamp="2023-11-25T09:10:48">
+    <properties>
+    </properties>
+    <testcase classname="Viewing all the courses" name="Viewing all the courses" time="0">
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:17:59)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Enrolling a course" name="Enrolling a course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:28:65)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Enrolling an already enrolled course" name="Enrolling an already enrolled course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 403 &quot;Forbidden&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:35:63)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Dropping a course" name="Dropping a course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:42:63)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Dropping an unenrolled course" name="Dropping an unenrolled course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 403 &quot;Forbidden&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:49:65)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Rating a course" name="Rating a course" time="0">
+      <failure message="MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Object.&lt;anonymous&gt;.Connection.openUri (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\connection.js:847:32)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\index.js:351:10
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (&lt;anonymous&gt;)
+    at promiseOrCallback (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose.Object.&lt;anonymous&gt;.Mongoose._promiseOrCallback (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\index.js:350:20)
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\src\mongoose\db\mongoose.js:4:10)
+    at Runtime._execModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:746:10)
+    at Runtime.require [as requireModuleOrMock] (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:919:21)
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\src\app.js:3:1)
+    at Runtime._execModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:746:10)
+    at Runtime.require [as requireModuleOrMock] (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:919:21)
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:2:13)
+    at Runtime._execModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runtime\build\index.js:746:10)
+    at jasmine2 (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\index.js:230:13)
+    at runTestInternal (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runner\build\runTest.js:380:22)
+    at runTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-runner\build\runTest.js:472:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Rating an already rated course" name="Rating an already rated course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 403 &quot;Forbidden&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:71:6)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Giving rating to an unenrolled course" name="Giving rating to an unenrolled course" time="0">
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="MongooseError: Operation `courses.deleteMany()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+      <failure message="MongooseError: Operation `courses.findOne()` buffering timed out after 10000ms
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23
+    at Timeout.task (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 403 &quot;Forbidden&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\NodeJS\test\users.test.js:81:6)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processTimers (node:internal/timers:509:9)
+----
+    at Test._assertStatus (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\dev\Exprement\Wormhole b73E9\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at emitCloseNT (node:net:2148:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

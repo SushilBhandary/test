@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js" errors="0" package="D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js" hostname="localhost" tests="5" failures="5" time="2.579" timestamp="2023-11-25T09:11:32">
+    <properties>
+    </properties>
+    <testcase classname="App component" name="routes check" time="0">
+      <failure message="Error: [2mexpect([22m[31mjest.fn()[39m[2m).[22mtoHaveBeenCalledTimes[2m([22m[32mexpected[39m[2m)[22m
+
+Expected number of calls: [32m1[39m
+Received number of calls: [31m0[39m
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js:31:26)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="App component" name="data map check" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m&quot;Node.js&quot;[39m
+Received: [31m&quot;&quot;[39m
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js:76:64)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="App component" name="Add rating Check" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m5[39m
+Received: [31m1[39m
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js:111:38)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="App component" name="Apply check" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\enzyme\src\ShallowWrapper.js:1652:13)
+    at ShallowWrapper.simulate (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\enzyme\src\ShallowWrapper.js:1133:17)
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js:145:11)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="App component" name="drop rating Check" time="0">
+      <failure message="Error: [2mexpect([22m[31mjest.fn()[39m[2m).[22mtoHaveBeenCalledTimes[2m([22m[32mexpected[39m[2m)[22m
+
+Expected number of calls: [32m3[39m
+Received number of calls: [31m0[39m
+    at Object.&lt;anonymous&gt; (D:\dev\Exprement\Wormhole b73E9\ReactJS\src\App.test.js:185:26)
+    at Object.asyncJestTest (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\dev\Exprement\Wormhole b73E9\ReactJS\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
